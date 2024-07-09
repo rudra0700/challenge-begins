@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+
+.primary-color {
+  color: rgb(13, 19, 33);
+}
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.section-desc {
+  font-size: 16px;
+  opacity: 0.7;
+}
+/* nav section */
+nav {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px;
+}
+.nav-title{
+    font-size: 28px;
+    font-weight: 800;
+}
+.nav-btn{
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border: 1px solid gray;
+    opacity: 0.9;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+}
