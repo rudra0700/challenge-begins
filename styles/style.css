@@ -180,7 +180,9 @@ nav {
   background-color: rgba(255, 223, 0, 0.05);
   padding: 60px 20px;
 }
-.html-content a, .css-content a, .js-content a {
+.html-content a,
+.css-content a,
+.js-content a {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 700;
@@ -194,4 +196,51 @@ nav {
 }
 .html-desc {
   margin-bottom: 10px;
+}
+
+/* support section */
+.support {
+  background-image: linear-gradient(
+      100deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 310px;
+  padding: 50px;
+}
+.support-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.support-desc {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.support-form {
+  text-align: center;
+  margin-top: 30px;
+}
+.support-form input {
+  width: 35%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.support-form button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
 }
