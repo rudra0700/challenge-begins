@@ -71,3 +71,54 @@ nav {
   font-weight: 600;
   border-radius: 8px;
 }
+
+/* devolopment section */
+.development {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 100px;
+}
+.development-container{
+  background: rgb(255, 255, 255);
+}
+.development-desc {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.development-part-one{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.development-title{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+}
+.development-part-one-desc{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.development-part-one button, .development-part-two button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+.development-part-two{
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+}
+.development-part-two-desc{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
