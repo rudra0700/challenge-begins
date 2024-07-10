@@ -244,3 +244,26 @@ nav {
   outline: none;
   border-radius: 5px;
 }
+
+/* footer */
+footer{
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-link {
+  display: flex;
+  gap: 30px;
+}
